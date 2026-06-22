@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SkillSphere
 
-## Getting Started
+## Project Purpose
 
-First, run the development server:
+SkillSphere is an online learning platform where users can explore various courses, view detailed course information, discover trending learning opportunities, and manage their learning journey through a modern and responsive user interface built with Next.js.
+
+## Live URL
+
+https://your-live-site-url.vercel.app
+
+## Features
+
+* Browse all available courses from a remote API
+* View detailed information for each course
+* Dynamic routing using Next.js App Router
+* Trending Courses section highlighting top-rated courses
+* Learning Tips section for effective study habits
+* Top Instructors showcase
+* Responsive design for mobile, tablet, and desktop devices
+* Loading spinner during data fetching
+* Toast notifications for user actions
+* Custom 404 Not Found page
+* Authentication support
+* Clean and organized App Router folder structure
+
+## Technologies Used
+
+* Next.js 15/16 (App Router)
+* React
+* Tailwind CSS
+* DaisyUI
+* JavaScript (ES6+)
+
+## NPM Packages Used
+
+* react
+* react-dom
+* next
+* tailwindcss
+* daisyui
+* react-hot-toast
+* better-auth
+* mongodb
+* @better-auth/mongo-adapter
+* @better-auth/kysely-adapter
+* @heroui/react
+* @heroui/styles
+
+## API Source
+
+Course data is fetched from:
+
+https://skillsphere-opal.vercel.app/data.json
+
+## Installation
+
+Clone the repository:
+
+https://github.com/Farhad0555/skillsphere.git
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Folder Structure
 
-## Learn More
+```text
+app/
+├── page.jsx
+├── layout.jsx
+├── loading.jsx
+├── not-found.jsx
+├── courses/
+│   ├── page.jsx
+│   └── [id]/page.jsx
+├── signin/
+├── profile/
 
-To learn more about Next.js, take a look at the following resources:
+components/
+├── Navbar.jsx
+├── Footer.jsx
+├── CourseCard.jsx
+├── TrendingCourses.jsx
+├── LearningTips.jsx
+└── TopInstructors.jsx
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Developed as part of the SkillSphere learning platform project using Next.js App Router.
