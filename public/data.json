@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "45 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn HTML, CSS, JavaScript, Node.js, and React from scratch to become a full-stack developer.",
+    "image": "https://images.unsplash.com/photo-1547658719-da2b81166b58?w=600&auto=format&fit=crop&q=60",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "title": "Python for Data Science and Machine Learning",
+    "instructor": "Sarah Jenkins",
+    "duration": "32 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Master Python, Pandas, NumPy, and Scikit-Learn to build predictive machine learning models.",
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&auto=format&fit=crop&q=60",
+    "category": "Data Science"
+  },
+  {
+    "id": 3,
+    "title": "UI/UX Design Fundamentals",
+    "instructor": "Michael Chang",
+    "duration": "18 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "User research, wireframing, prototyping, and visual design principles using Figma and Adobe XD.",
+    "image": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=600&auto=format&fit=crop&q=60",
+    "category": "Design"
+  },
+  {
+    "id": 4,
+    "title": "Ultimate Digital Marketing Masterclass",
+    "instructor": "Emma Rodriguez",
+    "duration": "25 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Grow your business or career using SEO, Google Ads, Facebook Marketing, and copywriting.",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&auto=format&fit=crop&q=60",
+    "category": "Marketing"
+  },
+  {
+    "id": 5,
+    "title": "Advanced Java and Spring Boot Microservices",
+    "instructor": "David Miller",
+    "duration": "40 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "Build scalable, production-ready microservices using Spring Cloud, Docker, and Kubernetes.",
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&auto=format&fit=crop&q=60",
+    "category": "Development"
+  },
+  {
+    "id": 6,
+    "title": "Financial Trading and Technical Analysis",
+    "instructor": "Alexei Volkov",
+    "duration": "15 hours",
+    "rating": 4.5,
+    "level": "Intermediate",
+    "description": "Learn to read candlestick charts, identify trends, and manage risk in stock and crypto markets.",
+    "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&auto=format&fit=crop&q=60",
+    "category": "Finance"
+  },
+  {
+    "id": 7,
+    "title": "Introduction to Cyber Security & Ethical Hacking",
+    "instructor": "Ryan Foster",
+    "duration": "28 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Understand network security, penetration testing, and how to defend systems against major vulnerabilities.",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&auto=format&fit=crop&q=60",
+    "category": "IT & Software"
+  },
+  {
+    "id": 8,
+    "title": "Creative Photography and Adobe Lightroom Mastery",
+    "instructor": "Sophia Martinez",
+    "duration": "12 hours",
+    "rating": 4.7,
+    "level": "All Levels",
+    "description": "Master camera settings, composition, and professional photo editing workflows.",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&auto=format&fit=crop&q=60",
+    "category": "Photography"
+  }
+]
