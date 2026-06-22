@@ -15,7 +15,7 @@ const Banner = () => {
         {/* Content */}
         <div className="max-w-4xl px-6 md:px-10 text-center text-white">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-4">
-            Skill Sphere Online {" "}
+            Learn from Industry Experts Online {" "}
             <span className="bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
               Learning Platform
             </span>
