@@ -6,8 +6,6 @@ import { TopInstructors } from "@/Component/TopInstructors";
 export default function Home() {
   return (
     <>
-    <h1>HI</h1>
-
     <Banner></Banner>
     <PopularCourses></PopularCourses>
     <LearningTips></LearningTips>
