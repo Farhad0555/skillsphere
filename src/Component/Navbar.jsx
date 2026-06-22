@@ -20,7 +20,7 @@ const Navbar = () => {
                         height={30}
                         className="object-cover h-auto w-auto"
                     />
-                    <h3 className="font-black text-lg">Product</h3>
+                    <h3 className="font-black text-lg">SkillSphere</h3>
                 </div>
 
                 <ul className="flex items-center gap-5 text-sm">
@@ -28,14 +28,12 @@ const Navbar = () => {
                         <Link href={"/"}>Home</Link>
                     </li>
                     <li>
-                        <Link href={"/allphotos"}>All Photos</Link>
+                        <Link href={"/courses"}>Courses</Link>
                     </li>
                     <li>
-                        <Link href={"/pricing"}>Pricing</Link>
+                        <Link href={"/profile"}>My Profile</Link>
                     </li>
-                    <li>
-                        <Link href={"/profile"}>Profile</Link>
-                    </li>
+                    
                 </ul>
 
                 <div className="flex gap-4">

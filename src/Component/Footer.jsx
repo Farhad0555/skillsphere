@@ -31,7 +31,7 @@ const Footer = () => {
                 className="dark:brightness-200"
               />
               <h2 className="text-xl font-semibold tracking-tight text-black dark:text-white">
-                Our Product
+                Contact info
               </h2>
             </div>
 
@@ -44,7 +44,7 @@ const Footer = () => {
           {/* Product */}
           <div>
             <h3 className="text-sm font-semibold text-black dark:text-white mb-4">
-              Product
+              Contact info
             </h3>
             <ul className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
               <li>
@@ -52,7 +52,7 @@ const Footer = () => {
                   href="/generate"
                   className="hover:text-black dark:hover:text-white transition"
                 >
-                  Generate
+                  Social links
                 </Link>
               </li>
               <li>
@@ -60,7 +60,7 @@ const Footer = () => {
                   href="/all-photos"
                   className="hover:text-black dark:hover:text-white transition"
                 >
-                  Gallery
+                  Terms & Conditions
                 </Link>
               </li>
               <li>
@@ -77,7 +77,7 @@ const Footer = () => {
           {/* Company */}
           <div>
             <h3 className="text-sm font-semibold text-black dark:text-white mb-4">
-              Company
+              Privacy policy
             </h3>
             <ul className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
               <li>
@@ -134,7 +134,7 @@ const Footer = () => {
 
         {/* Bottom */}
         <div className="mt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500 dark:text-gray-400">
-          <p>© {new Date().getFullYear()} pixgen. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} SkillSphere . All rights reserved.</p>
 
           <div className="flex items-center gap-6">
             <Link
