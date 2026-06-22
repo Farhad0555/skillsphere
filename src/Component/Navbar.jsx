@@ -1,12 +1,10 @@
 "use client";
-import { authClient } from "@/lib/auth-client";
-import { Avatar, Button } from "@heroui/react";
+import { Button } from "@heroui/react";
 import Image from "next/image";
 import Link from "next/link";
 
 const Navbar = () => {
-    const userdata = authClient.useSession(); 
-    const users = userdata.data?.user;
+
 
     return (
         <div className="border-b px-2">
@@ -33,28 +31,18 @@ const Navbar = () => {
                     <li>
                         <Link href={"/profile"}>My Profile</Link>
                     </li>
-                    
+
                 </ul>
 
                 <div className="flex gap-4">
-                    {!users && <ul className="flex items-center  text-sm">
+                    <ul className="flex items-center  text-sm">
                         <li>
                             <Link href={"/signup"}>SignUp || </Link>
                         </li>
                         <li>
                             <Link href={"/signin"}> SignIn</Link>
                         </li>
-                    </ul>}
-                    {users && <div className="flex gap-1">
-                        <p>{users.name}</p>
-                        <Avatar size="sm">
-                            <Avatar.Image alt="John Doe" src={users?.image}
-                                name={users?.name} />
-                            <Avatar.Fallback>{users?.name.charAt(2)}</Avatar.Fallback>
-                        </Avatar>
-                        <Button size="sm" variant="danger">Sign Out</Button>
-                    </div>}
-
+                    </ul>
                 </div>
             </nav>
         </div>
