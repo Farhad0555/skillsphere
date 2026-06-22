@@ -7,10 +7,7 @@ import Link from "next/link";
 const Navbar = () => {
     const userdata = authClient.useSession(); 
     const users = userdata.data?.user;
-    const handleSignout= async()=>{
-        await authClient.signOut();
-        alert("Logout success");
-    }
+
     return (
         <div className="border-b px-2">
             <nav className=" flex justify-between items-center  py-3 max-w-7xl mx-auto w-full">
@@ -57,7 +54,7 @@ const Navbar = () => {
                                 name={users?.name} />
                             <Avatar.Fallback>{users?.name.charAt(2)}</Avatar.Fallback>
                         </Avatar>
-                        <Button size="sm" variant="danger" onClick={handleSignout} >Sign Out</Button>
+                        <Button size="sm" variant="danger">Sign Out</Button>
                     </div>}
 
                 </div>
