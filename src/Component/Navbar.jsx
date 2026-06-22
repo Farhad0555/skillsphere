@@ -11,7 +11,7 @@ const Navbar = () => {
             <nav className=" flex justify-between items-center  py-3 max-w-7xl mx-auto w-full">
                 <div className="flex gap-2 items-center">
                     <Image
-                        src={"https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1200&auto=format&fit=crop&q=80"}
+                        src={"https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&auto=format&fit=crop&q=60"}
                         alt="logo"
                         loading="eager"
                         width={30}
